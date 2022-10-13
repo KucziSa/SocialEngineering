@@ -1,25 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/DIpuNTI.jpg"></p>
-
-<p align="center">
-    <a href="https://twitter.com/thewhiteh4t">
-      <img src="https://img.shields.io/badge/-TWITTER-black?logo=twitter&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://twc1rcle.com/">
-      <img src="https://img.shields.io/badge/-THE WHITE CIRCLE-black?logo=&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://thewhiteh4t.github.io/">
-      <img src="https://img.shields.io/badge/-BLOG-black?logo=dialogflow&style=for-the-badge">
-    </a>
-</p>
-
-<p align="center">
-  <br>
-  <b>Available in</b>
-  <br>
-  <img src="https://i.imgur.com/1wJVDV5.png">
-</p>
+# Kuczi$ - Social Engineering
 
 <p>
   <a style="margin-right: 10px;" href="https://github.com/thewhiteh4t/seeker#installation">
