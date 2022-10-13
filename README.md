@@ -134,11 +134,7 @@ as an alterntive to ngrok
 - install telebit `curl https://get.telebit.io/ | bash`
 - `telebit http 8080`
 
+```
 
-**YouTube**
-
-<a href="https://youtu.be/Q91cTFwIvLc">
-  <img src="https://i3.ytimg.com/vi/Q91cTFwIvLc/maxresdefault.jpg">
-</a>
 
 &copy; Kuczi$
