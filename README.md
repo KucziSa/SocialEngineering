@@ -140,3 +140,5 @@ as an alterntive to ngrok
 <a href="https://youtu.be/Q91cTFwIvLc">
   <img src="https://i3.ytimg.com/vi/Q91cTFwIvLc/maxresdefault.jpg">
 </a>
+
+&copy; Kuczi$
