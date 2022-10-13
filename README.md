@@ -93,15 +93,15 @@ Available Templates :
 * Kali Nethunter
 * Termux
 * Parrot OS
-* OSX - Monterey v.12.0.1
+* OSX - Big Sur
 
 ## Installation
 
 ### Kali Linux / Arch Linux / Ubuntu / Parrot OS / Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
+git clone https://github.com/KucziSa/SocialEngineering
+cd SocialEngineering/
 chmod +x install.sh
 ./install.sh
 ```
@@ -109,35 +109,24 @@ chmod +x install.sh
 ### BlackArch Linux
 
 ```bash
-sudo pacman -S seeker
+sudo pacman -S socialEngineering
 ```
 
-### Docker
-
-```bash
-docker pull thewhiteh4t/seeker
-```
 
 ### OSX
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/KucziSa/SocialEngineering
 cd seeker/
 python3 seeker.py
 ````
 
-In order to run in tunnel mode, install ngrok by running this command in the terminal:
-```bash
-brew install ngrok/ngrok/ngrok
-
-ngrok http 8080
-````
 
 ## Usage
 
 ```bash
-python3 seeker.py -h
+python3 socialEngineering.py -h
 
-usage: seeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
+usage: socialengineering.py [-h] [-k KML] [-p PORT] [-u] [-v]
 
 options:
   -h, --help            show this help message and exit
@@ -151,7 +140,7 @@ options:
 ##################
 
 # Step 1 : In first terminal
-$ python3 seeker.py
+$ python3 socialEngineering.py
 
 # Step 2 : In second terminal start a tunnel service such as ngrok
 $ ./ngrok http 8080
@@ -167,19 +156,6 @@ $ python3 seeker.py -k <filename>
 $ python3 seeker.py -p 1337
 $ ./ngrok http 1337
 
-################
-# Docker Usage #
-################
-
-# Step 1
-$ docker network create ngroknet
-
-# Step 2
-$ docker run --rm -it --net ngroknet --name seeker thewhiteh4t/seeker
-
-# Step 3
-$ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
-```
 
 ## Local Tunnels
 Use
@@ -188,7 +164,11 @@ ssh -R 80:localhost:8080 nokey@localhost.run
 ```
 as an alterntive to ngrok
 
-## Demo
+## Use telebit as a tunneler
+
+- install telebit `curl https://get.telebit.io/ | bash`
+- `telebit http 8080`
+
 
 **YouTube**
 
